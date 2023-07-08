@@ -116,7 +116,7 @@ const App = () => {
       },
       body: JSON.stringify(createPg)
     });
-    const content = await rawResponse.json();
+    await rawResponse.json();
   };
 
   return (
